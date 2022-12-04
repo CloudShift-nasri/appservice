@@ -1,0 +1,20 @@
+{
+    "name": "SQLINSTANCE_CONNTECTION_NODEJS",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^3.1.8",
+        "express": "^4.16.3",
+        "express-fileupload": "^1.4.0",
+        "req-flash": "0.0.3",
+        "tedious": "^15.1.2"
+    }
+}

@@ -1,0 +1,2 @@
+connection_string=Data Source=20.86.219.166;User ID=nasri;Password=ESPRITpfe2022
+teamname=The Team X
