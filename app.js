@@ -10,7 +10,7 @@ const homeRoutes = require('./routes/index.routes');
 
 const port = process.env.port || 8080;
 const teamName = process.env.teamname || "The CloudShifters";
-const connection_string = process.env.SQLCONNSTR_SQLK8SARc || "Data Source=20.23.179.3";User ID=nasri;Password=ESPRITpfe2022";
+const connection_string = process.env.SQLCONNSTR_SQLK8SARc || "Data Source=20.23.179.3;User ID=nasri;Password=ESPRITpfe2022";
 
 let databaseCred = {};
 connection_string.split(";").map((k) => { databaseCred[k.split("=")[0]] = k.split("=")[1] });
